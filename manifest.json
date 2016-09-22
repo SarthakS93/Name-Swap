@@ -11,12 +11,4 @@
         'default_title': 'Search',
         'default_popup': 'popup.html'
     },
-	'content_scripts': 
-	[
-		{
-			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
-			"run_at": "document_end"
-		}
-    ]
 }
