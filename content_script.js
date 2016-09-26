@@ -32,8 +32,9 @@ function handleText(textNode)
 	v = v.replace(/Saurabh Singhal/gi, "Goku Bhai");
 	v = v.replace(/Saurabh/gi, "Goku");
 	v = v.replace(/Vishal/gi, "Hercules");
+	v = v.replace(/Nishant/gi, "Spartacus");
 	
-	textNode.nodeValue = v;
+    textNode.nodeValue = v;
 }
 
 
